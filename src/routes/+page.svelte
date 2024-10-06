@@ -5,7 +5,7 @@
 
     let grain = 22;
     let redness = 1.1;
-    let yellowness = 1.05; 
+    let yellowness = 1.15; 
     let blurRadius = 2; // Slight blur radius
 
     function handleFileUpload(event: Event): void {

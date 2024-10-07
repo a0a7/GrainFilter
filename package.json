@@ -24,6 +24,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@imagemagick/magick-wasm": "^0.0.30",
 		"canvas": "^2.11.2",
 		"node-fetch": "^3.3.2"
 	}

@@ -1,38 +1,13 @@
-# create-svelte
+# 🌺 Classic Anime Filter
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Webtoy + API to add a 90s anime look filter to any image. Supports PNG and JPG.
 
-## Creating a project
+## API
 
-If you're seeing this, you've probably already done this step. Congrats!
+Api is broken :( cloudflare doesn't like node.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Use it like this:
+http://classicanime.pages.dev/api?img=[YOUR-IMG-URL-HERE]
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+e.g.
+http://classicanime.pages.dev/api?img=https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/07/Monster.jpg?q=70&fit=crop&w=825&dpr=1

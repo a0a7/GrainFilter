@@ -22,7 +22,7 @@ export const GET: RequestHandler = async ({ url }) => {
         const buffer = await response.arrayBuffer();
         await initializeImageMagick();
 
-        const image = await ImageMagick.read(buffer);
+        const image: any = await ImageMagick.read(buffer);
         image.gaussianBlur(blurRadius, blurRadius);
 
         // Apply grain and color adjustments

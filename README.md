@@ -4,6 +4,9 @@ Webtoy + API to add a 90s anime look filter to any image. Supports PNG and JPG.
 
 ![image](https://github.com/user-attachments/assets/42400520-78dc-4c9c-abf8-a3a7983f2186)
 
+![image](https://github.com/user-attachments/assets/99c4b75a-1710-4f58-b626-2050fca394f9)
+
+
 ## API
 
 Api is broken :( cloudflare doesn't like node.
